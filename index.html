@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WOODORA LIVING | Premium Furniture Showroom in Sangli, Maharashtra</title>
+  <meta name="description" content="WOODORA LIVING is a premium furniture showroom in Sangli, Maharashtra. Explore modern sofas, beds, wardrobes, dining sets, office furniture and custom furniture. Designed for Living. Crafted for Comfort.">
+  <meta name="keywords" content="furniture showroom Sangli, sofa Sangli, bed and wardrobe Sangli, dining table, office furniture, custom furniture Maharashtra">
+  <meta name="theme-color" content="#292724">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="WOODORA LIVING">
+  <meta property="og:title" content="WOODORA LIVING | Designed for Living. Crafted for Comfort.">
+  <meta property="og:description" content="Premium furniture for homes, offices and commercial spaces. Visit our showroom in Sangli, Maharashtra.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&h=630&q=80">
+  <meta property="og:locale" content="en_IN">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Fonts & icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Local business structured data (DEMO: phone, email and street address are placeholders) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FurnitureStore",
+    "name": "WOODORA LIVING",
+    "slogan": "Designed for Living. Crafted for Comfort.",
+    "description": "Demonstration website for a fictional furniture showroom. Contact details and address are placeholders.",
+    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+    "telephone": "+91-98765-43210 (placeholder)",
+    "email": "hello@woodoraliving.example",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Showroom address placeholder",
+      "addressLocality": "Sangli",
+      "addressRegion": "Maharashtra",
+      "addressCountry": "IN"
+    },
+    "areaServed": "Sangli, Maharashtra",
+    "priceRange": "₹₹"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrap">
+      <a href="#home" class="logo" aria-label="WOODORA LIVING home">
+        <img src="assets/images/logo.svg" alt="" width="40" height="40">
+        <span class="logo-text"><strong>WOODORA</strong><small>LIVING</small></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#collection" class="nav-link" data-filter-link="all">Furniture</a></li>
+          <li><a href="#living" class="nav-link">Living Room</a></li>
+          <li><a href="#bedroom" class="nav-link">Bedroom</a></li>
+          <li><a href="#collection" class="nav-link" data-filter-link="dining">Dining</a></li>
+          <li><a href="#collection" class="nav-link" data-filter-link="office">Office</a></li>
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#showroom" class="btn btn-primary nav-cta-mobile">Visit Showroom</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#showroom" class="btn btn-primary btn-sm nav-cta">Visit Showroom</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home" aria-label="Welcome">
+      <img class="hero-bg"
+           src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=80"
+           srcset="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=75 800w,
+                   https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=78 1400w,
+                   https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=2200&q=80 2200w"
+           sizes="100vw" alt="Warm modern living room with a grey sofa, wooden coffee table and soft natural light" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <span class="eyebrow eyebrow-light">Furniture for Modern Living</span>
+        <h1>Make Every Corner Feel Like Home.</h1>
+        <p>Discover thoughtfully designed furniture that brings comfort, elegance and personality into your everyday living.</p>
+        <div class="btn-row">
+          <a href="#collection" class="btn btn-light" data-filter-link="all">Explore Collection <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          <a href="#showroom" class="btn btn-outline-light">Visit Our Showroom</a>
+        </div>
+      </div>
+      <div class="hero-meta container">
+        <div><strong>6</strong><span>Furniture categories</span></div>
+        <div><strong>Custom</strong><span>Sizes &amp; finishes on request</span></div>
+        <div><strong>Sangli</strong><span>Maharashtra showroom</span></div>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll to next section"><i class="fa-solid fa-chevron-down" aria-hidden="true"></i></a>
+    </section>
+
+    <!-- ============ BRAND INTRO ============ -->
+    <section class="section intro" id="about">
+      <div class="container split">
+        <div class="split-media reveal">
+          <img loading="lazy" decoding="async"
+               src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=1100&q=75"
+               srcset="https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=600&q=75 600w,
+                       https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&w=1100&q=75 1100w"
+               sizes="(max-width: 900px) 92vw, 46vw"
+               alt="Calm cream living room with a soft sofa, boucle chair, round coffee table and rattan wall mirrors" width="1100" height="1300">
+          <div class="media-badge"><i class="fa-solid fa-couch" aria-hidden="true"></i><span>Homes · Offices · Commercial spaces</span></div>
+        </div>
+        <div class="split-copy reveal" style="--d:.1s">
+          <span class="eyebrow">About WOODORA LIVING</span>
+          <h2>Beautiful Spaces Begin With the Right Furniture.</h2>
+          <p class="lead">At WOODORA LIVING, we believe furniture is more than something you place in a room. It defines how you live, relax, work and connect with the people around you.</p>
+          <p>Our Sangli showroom brings together sofas, beds, wardrobes, dining sets, office furniture and decor pieces chosen for comfort, everyday practicality and a calm, modern look. Walk through real room settings, feel the fabrics and finishes, and talk to our team about what suits your space.</p>
+          <ul class="tick-list">
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i>Curated living, bedroom, dining and office ranges</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i>Custom sizes, materials and colours on request</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i>Friendly, no-pressure guidance in the showroom</li>
+          </ul>
+          <a href="#showroom" class="btn btn-dark">Discover Our Story <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CATEGORIES ============ -->
+    <section class="section section-cream" id="categories">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Shop by Room</span>
+          <h2>Furniture for Every Room You Love</h2>
+          <p>From relaxed living rooms to focused workspaces, explore collections designed around the way you actually live.</p>
+        </div>
+        <div class="cat-grid">
+          <article class="cat-card reveal">
+            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=900&q=72" alt="Living room with an orange accent chair, gold sideboard and plants" width="900" height="1100">
+            <div class="cat-body">
+              <h3>Living Room</h3>
+              <p>Sofas · Recliners · TV Units · Coffee Tables</p>
+              <button type="button" class="cat-btn" data-filter-btn="living">Explore Collection <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+          </article>
+          <article class="cat-card reveal" style="--d:.06s">
+            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1617325247661-675ab4b64ae2?auto=format&fit=crop&w=900&q=72" alt="Low wooden platform bed with white linen and soft cushions" width="900" height="1100">
+            <div class="cat-body">
+              <h3>Bedroom</h3>
+              <p>Beds · Wardrobes · Bedside Tables · Dressing Tables</p>
+              <button type="button" class="cat-btn" data-filter-btn="bedroom">Explore Collection <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+          </article>
+          <article class="cat-card reveal" style="--d:.12s">
+            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1604578762246-41134e37f9cc?auto=format&fit=crop&w=900&q=72" alt="Solid wood dining table with chairs beside a garden-facing window" width="900" height="1100">
+            <div class="cat-body">
+              <h3>Dining Room</h3>
+              <p>Dining Tables · Dining Chairs · Crockery Units</p>
+              <button type="button" class="cat-btn" data-filter-btn="dining">Explore Collection <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+          </article>
+          <article class="cat-card reveal">
+            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1596079890744-c1a0462d0975?auto=format&fit=crop&w=900&q=72" alt="Minimal home office with a white desk and a tan leather office chair" width="900" height="1100">
+            <div class="cat-body">
+              <h3>Office Furniture</h3>
+              <p>Office Desks · Office Chairs · Storage Units</p>
+              <button type="button" class="cat-btn" data-filter-btn="office">Explore Collection <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+          </article>
+          <article class="cat-card reveal" style="--d:.06s">
+            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1594026112284-02bb6f3352fe?auto=format&fit=crop&w=900&q=72" alt="Floating wooden wall shelves and media console with decor pieces" width="900" height="1100">
+            <div class="cat-body">
+              <h3>Home Decor</h3>
+              <p>Side Tables · Bookshelves · Decorative Furniture</p>
+              <button type="button" class="cat-btn" data-filter-btn="decor">Explore Collection <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+          </article>
+          <article class="cat-card reveal" style="--d:.12s">
+            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1616593969747-4797dc75033e?auto=format&fit=crop&w=900&q=72" alt="Balcony seating with wooden lounge chairs and cushions" width="900" height="1100">
+            <div class="cat-body">
+              <h3>Outdoor Furniture</h3>
+              <p>Garden Chairs · Outdoor Tables · Balcony Furniture</p>
+              <button type="button" class="cat-btn" data-filter-btn="outdoor">Explore Collection <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED COLLECTION ============ -->
+    <section class="section" id="collection">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Featured Collection</span>
+          <h2>Pieces Our Customers Keep Coming Back For</h2>
+          <p>Browse a selection from our showroom floor. Tap <em>View Details</em> for sizes, colours and features, or enquire directly on WhatsApp.</p>
+        </div>
+
+        <div class="filters reveal" role="tablist" aria-label="Filter furniture by category">
+          <button class="filter-btn active" role="tab" aria-selected="true" data-filter="all">All Furniture</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="living">Living Room</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="bedroom">Bedroom</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="dining">Dining</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="office">Office</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="decor">Decor</button>
+          <button class="filter-btn" role="tab" aria-selected="false" data-filter="outdoor">Outdoor</button>
+        </div>
+
+        <p class="result-count" id="resultCount" aria-live="polite"></p>
+        <div class="product-grid" id="productGrid"><!-- Rendered by js/script.js --></div>
+        <p class="fine-print"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Product names, specifications and prices shown are sample demonstration content. Please confirm current availability and pricing with the showroom.</p>
+      </div>
+    </section>
+
+    <!-- ============ NEW ARRIVALS ============ -->
+    <section class="section section-dark" id="new-arrivals">
+      <div class="container">
+        <div class="section-head section-head-split reveal">
+          <div>
+            <span class="eyebrow eyebrow-light">Just In</span>
+            <h2>New Arrivals, Fresh From the Showroom Floor</h2>
+          </div>
+          <p>Newly introduced collections with softer silhouettes, warmer woods and finishes made for modern Indian homes.</p>
+        </div>
+        <div class="arrivals-grid">
+          <article class="arrival arrival-lg reveal">
+            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=1400&q=75" alt="Tan leatherette three-seater sofa with wooden legs" width="1400" height="900">
+            <div class="arrival-body">
+              <span class="tag">New Sofa Collection</span>
+              <h3>The Haven Sofa Series</h3>
+              <p>Deep seats, clean lines and warm upholstery tones.</p>
+              <button type="button" class="link-btn" data-filter-btn="living">Explore Collection <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+          </article>
+          <article class="arrival reveal" style="--d:.06s">
+            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=900&q=75" alt="Contemporary bedroom with a channel-tufted upholstered bed" width="900" height="700">
+            <div class="arrival-body">
+              <span class="tag">Contemporary Bedroom</span>
+              <h3>Serene Bedroom Edit</h3>
+              <button type="button" class="link-btn" data-filter-btn="bedroom">Explore Collection <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+          </article>
+          <article class="arrival reveal" style="--d:.1s">
+            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=900&q=75" alt="Modern dining room with velvet dining chairs around a long table" width="900" height="700">
+            <div class="arrival-body">
+              <span class="tag">Modern Dining</span>
+              <h3>Gather Dining Collection</h3>
+              <button type="button" class="link-btn" data-filter-btn="dining">Explore Collection <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+          </article>
+          <article class="arrival reveal" style="--d:.14s">
+            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1600494603989-9650cf6ddd3d?auto=format&fit=crop&w=900&q=75" alt="Minimalist home office with a wooden desk and black chair" width="900" height="700">
+            <div class="arrival-body">
+              <span class="tag">Minimalist Office</span>
+              <h3>Focus Workspace Range</h3>
+              <button type="button" class="link-btn" data-filter-btn="office">Explore Collection <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LIVING ROOM INSPIRATION ============ -->
+    <section class="section" id="living">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Living Room Inspiration</span>
+          <h2>Create a Living Room You'll Love Coming Home To.</h2>
+          <p>Mix a generous sofa with a warm wooden coffee table, add an accent chair and open shelving, and the room starts to feel like yours.</p>
+        </div>
+        <div class="inspo-grid">
+          <figure class="inspo inspo-main reveal">
+            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1500&q=75" alt="Bright living room with a leather sofa, white accent chairs and round wooden coffee table" width="1500" height="1000">
+            <figcaption><strong>Modern Sofa Arrangements</strong><span>Layered seating for family evenings</span></figcaption>
+          </figure>
+          <figure class="inspo reveal" style="--d:.06s">
+            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=800&q=72" alt="Pair of round wooden coffee tables in front of a grey sofa" width="800" height="600">
+            <figcaption><strong>Coffee Tables</strong></figcaption>
+          </figure>
+          <figure class="inspo reveal" style="--d:.1s">
+            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=800&q=72" alt="Living room with a dark TV unit, shelving and a grey sofa" width="800" height="600">
+            <figcaption><strong>TV Units</strong></figcaption>
+          </figure>
+          <figure class="inspo reveal" style="--d:.14s">
+            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=800&q=72" alt="Mustard yellow accent armchair beside a floor lamp" width="800" height="600">
+            <figcaption><strong>Accent Chairs</strong></figcaption>
+          </figure>
+          <figure class="inspo reveal" style="--d:.18s">
+            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1594620302200-9a762244a156?auto=format&fit=crop&w=800&q=72" alt="Floor-to-ceiling wooden bookshelf filled with books" width="800" height="600">
+            <figcaption><strong>Bookshelves</strong></figcaption>
+          </figure>
+        </div>
+        <div class="center-cta reveal">
+          <button type="button" class="btn btn-dark" data-filter-btn="living">Shop Living Room Furniture <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BEDROOM ============ -->
+    <section class="section section-beige" id="bedroom">
+      <div class="container split split-reverse">
+        <div class="split-copy reveal">
+          <span class="eyebrow">Bedroom Collection</span>
+          <h2>A Better Day Begins With a Better Space.</h2>
+          <p class="lead">Restful beds, smart storage and soft textures, chosen to make your bedroom the calmest room in the house.</p>
+          <ul class="chip-list">
+            <li><i class="fa-solid fa-bed" aria-hidden="true"></i>King-size beds</li>
+            <li><i class="fa-solid fa-bed" aria-hidden="true"></i>Queen-size beds</li>
+            <li><i class="fa-solid fa-door-closed" aria-hidden="true"></i>Wardrobes</li>
+            <li><i class="fa-solid fa-lightbulb" aria-hidden="true"></i>Bedside tables</li>
+            <li><i class="fa-solid fa-spa" aria-hidden="true"></i>Dressing units</li>
+          </ul>
+          <div class="btn-row">
+            <button type="button" class="btn btn-dark" data-filter-btn="bedroom">View Bedroom Furniture</button>
+            <a href="#enquiry" class="btn btn-outline" data-category-prefill="Bedroom">Enquire Now</a>
+          </div>
+        </div>
+        <div class="bed-mosaic reveal" style="--d:.1s">
+          <img class="bm-a" loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=1000&q=74" alt="Calm bedroom with layered bedding, bedside table and hanging plants" width="1000" height="1200">
+          <img class="bm-b" loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1586105251261-72a756497a11?auto=format&fit=crop&w=700&q=72" alt="Bed with a dark upholstered headboard and round bedside table" width="700" height="520">
+          <img class="bm-c" loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1499933374294-4584851497cc?auto=format&fit=crop&w=700&q=72" alt="White bedside table with a clock and small plant" width="700" height="520">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CUSTOM FURNITURE ============ -->
+    <section class="section custom" id="custom">
+      <div class="container split">
+        <div class="split-media reveal">
+          <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=1100&q=75" alt="Custom cane-front sideboard with a round mirror and lounge chair" width="1100" height="1300">
+        </div>
+        <div class="split-copy reveal" style="--d:.1s">
+          <span class="eyebrow">Custom Furniture Solutions</span>
+          <h2>Made Around Your Space. Designed Around You.</h2>
+          <p class="lead">Have an awkward corner, a specific size in mind or a finish you love? Tell us, and we'll help plan a piece that fits.</p>
+          <div class="custom-grid">
+            <div><i class="fa-solid fa-ruler-combined" aria-hidden="true"></i><span>Custom dimensions</span></div>
+            <div><i class="fa-solid fa-tree" aria-hidden="true"></i><span>Material selection</span></div>
+            <div><i class="fa-solid fa-palette" aria-hidden="true"></i><span>Colour selection</span></div>
+            <div><i class="fa-solid fa-maximize" aria-hidden="true"></i><span>Space-saving furniture</span></div>
+            <div><i class="fa-solid fa-door-open" aria-hidden="true"></i><span>Custom wardrobes</span></div>
+            <div><i class="fa-solid fa-table-cells-large" aria-hidden="true"></i><span>Modular storage</span></div>
+          </div>
+          <button type="button" class="btn btn-primary" data-open-modal="customModal">Request Custom Furniture <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY CHOOSE ============ -->
+    <section class="section section-cream" id="why">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Why WOODORA LIVING</span>
+          <h2>Why Choose WOODORA LIVING?</h2>
+        </div>
+        <div class="why-grid">
+          <div class="why reveal"><i class="fa-regular fa-gem" aria-hidden="true"></i><h3>Thoughtfully Selected Designs</h3><p>Every piece on our floor is picked for how it looks, feels and works in a real home.</p></div>
+          <div class="why reveal" style="--d:.05s"><i class="fa-solid fa-couch" aria-hidden="true"></i><h3>Comfort-Focused Furniture</h3><p>Seating, beds and chairs chosen with everyday comfort in mind, not just looks.</p></div>
+          <div class="why reveal" style="--d:.1s"><i class="fa-regular fa-clock" aria-hidden="true"></i><h3>Modern &amp; Timeless Styles</h3><p>Clean, calm designs that sit comfortably with both modern and classic interiors.</p></div>
+          <div class="why reveal"><i class="fa-solid fa-layer-group" aria-hidden="true"></i><h3>Multiple Furniture Categories</h3><p>Living, bedroom, dining, office, decor and outdoor furniture under one roof.</p></div>
+          <div class="why reveal" style="--d:.05s"><i class="fa-regular fa-comments" aria-hidden="true"></i><h3>Personalized Assistance</h3><p>Our team helps you compare options, sizes and finishes for your space and budget.</p></div>
+          <div class="why reveal" style="--d:.1s"><i class="fa-solid fa-store" aria-hidden="true"></i><h3>Showroom Experience</h3><p>See, touch and sit on the furniture before you decide. No guesswork.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MATERIALS ============ -->
+    <section class="section" id="materials">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Materials &amp; Finishes</span>
+          <h2>Feel the Difference in Every Finish</h2>
+          <p>Explore the materials and finishes you'll find across our collections.</p>
+        </div>
+        <div class="mat-grid">
+          <article class="mat reveal"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=600&q=70" alt="Natural wooden side table with visible grain" width="600" height="450"><div><h3>Natural Wood</h3><p>Warm grain and organic character for a grounded, welcoming feel.</p></div></article>
+          <article class="mat reveal" style="--d:.05s"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?auto=format&fit=crop&w=600&q=70" alt="Close-up of dark walnut-toned wood texture" width="600" height="450"><div><h3>Walnut Finish</h3><p>Rich, deep brown tones that bring quiet luxury to any room.</p></div></article>
+          <article class="mat reveal" style="--d:.1s"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=600&q=70" alt="Light oak-toned wooden stool" width="600" height="450"><div><h3>Oak Finish</h3><p>Light, airy and Scandinavian, perfect for bright modern spaces.</p></div></article>
+          <article class="mat reveal"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=600&q=70" alt="Grey fabric upholstered dining chair with wooden legs" width="600" height="450"><div><h3>Premium Fabric</h3><p>Soft, breathable upholstery in a range of calm, liveable shades.</p></div></article>
+          <article class="mat reveal" style="--d:.05s"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1599696848652-f0ff23bc911f?auto=format&fit=crop&w=600&q=70" alt="Brown leatherette sofa with cushions" width="600" height="450"><div><h3>Leatherette</h3><p>The look of leather with easy everyday care for busy homes.</p></div></article>
+          <article class="mat reveal" style="--d:.1s"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1540932239986-30128078f3c5?auto=format&fit=crop&w=600&q=70" alt="Copper metal pendant lights" width="600" height="450"><div><h3>Metal Finishes</h3><p>Black, brass and copper-tone accents for legs, frames and details.</p></div></article>
+        </div>
+        <p class="note-box reveal"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Material availability and finishes vary by product and batch. Please confirm the exact material, finish and colour with our showroom team before ordering.</p>
+      </div>
+    </section>
+
+    <!-- ============ SHOWROOM ============ -->
+    <section class="section section-beige" id="showroom">
+      <div class="container showroom">
+        <div class="showroom-media reveal">
+          <img class="sr-main" loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1600585154084-4e5fe7c39198?auto=format&fit=crop&w=1300&q=75" alt="Spacious showroom-style interior with a sectional sofa, dining area and large windows" width="1300" height="900">
+          <div class="sr-thumbs">
+            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea?auto=format&fit=crop&w=500&q=70" alt="Black sofa displayed in a bright white room" width="500" height="360">
+            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1558211583-d26f610c1eb1?auto=format&fit=crop&w=500&q=70" alt="Yellow two-seater sofa displayed against a white wall" width="500" height="360">
+            <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=500&q=70" alt="Display with a dark loveseat, white chest of drawers and floor lamp" width="500" height="360">
+          </div>
+        </div>
+        <div class="split-copy reveal" style="--d:.1s">
+          <span class="eyebrow">Our Showroom</span>
+          <h2>Experience the Comfort Before You Choose.</h2>
+          <p class="lead">Furniture is personal. That's why our showroom is laid out as real rooms, so you can sit, compare and picture each piece in your own home.</p>
+          <p>Bring your room measurements or a few photos, and our team will help you shortlist options that fit your layout, style and budget.</p>
+          <ul class="info-list">
+            <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span><strong>Location</strong>Sangli, Maharashtra, India<br><small>(Full showroom address placeholder)</small></span></li>
+            <li><i class="fa-regular fa-clock" aria-hidden="true"></i><span><strong>Hours</strong>Business hours placeholder</span></li>
+          </ul>
+          <div class="btn-row">
+            <a href="#" class="btn btn-dark" data-wa="showroom"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Visit Our Showroom</a>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=Sangli%2C%20Maharashtra" target="_blank" rel="noopener" class="btn btn-outline"><i class="fa-solid fa-diamond-turn-right" aria-hidden="true"></i> Get Directions</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section section-dark" id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow eyebrow-light">Customer Stories</span>
+          <h2>Homes That Feel Just Right</h2>
+          <p class="demo-label"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Sample testimonials for demonstration only. These are not genuine customer reviews.</p>
+        </div>
+        <div class="carousel reveal" id="testimonialCarousel" aria-roledescription="carousel" aria-label="Customer testimonials">
+          <div class="carousel-track" id="carouselTrack"><!-- Rendered by js/script.js --></div>
+          <div class="carousel-controls">
+            <button type="button" class="car-btn" id="prevSlide" aria-label="Previous testimonial"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i></button>
+            <div class="car-dots" id="carouselDots" role="tablist" aria-label="Choose testimonial"></div>
+            <button type="button" class="car-btn" id="nextSlide" aria-label="Next testimonial"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section" id="faq">
+      <div class="container faq-wrap">
+        <div class="section-head section-head-left reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2>Frequently Asked Questions</h2>
+          <p>Can't find what you're looking for? Message us on WhatsApp and our team will help.</p>
+          <a href="#" class="btn btn-outline" data-wa="general"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Ask on WhatsApp</a>
+        </div>
+        <div class="faq-list reveal" style="--d:.1s" id="faqList"><!-- Rendered by js/script.js --></div>
+      </div>
+    </section>
+
+    <!-- ============ ENQUIRY ============ -->
+    <section class="section section-cream" id="enquiry">
+      <div class="container enquiry">
+        <div class="enquiry-copy reveal">
+          <span class="eyebrow">Furniture Enquiry</span>
+          <h2>Found Something You Love? Let's Talk.</h2>
+          <p class="lead">Tell us what you're looking for, and our team will help you find the right furniture for your space.</p>
+          <ul class="tick-list">
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i>Help choosing sizes and finishes</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i>Current prices and availability</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i>Custom furniture guidance</li>
+          </ul>
+          <img loading="lazy" decoding="async" class="enquiry-img" src="https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&fit=crop&w=900&q=72" alt="Cosy living room with grey sofa, rattan pendant lights and ottoman" width="900" height="600">
+        </div>
+
+        <form class="form-card reveal" id="enquiryForm" novalidate style="--d:.1s">
+          <div class="form-grid">
+            <div class="field">
+              <label for="eqName">Full Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="eqName" name="name" autocomplete="name" required placeholder="Your full name">
+              <small class="error" aria-live="polite"></small>
+            </div>
+            <div class="field">
+              <label for="eqPhone">Mobile Number <span aria-hidden="true">*</span></label>
+              <input type="tel" id="eqPhone" name="phone" autocomplete="tel" inputmode="numeric" required placeholder="10-digit mobile number">
+              <small class="error" aria-live="polite"></small>
+            </div>
+            <div class="field">
+              <label for="eqEmail">Email Address <span aria-hidden="true">*</span></label>
+              <input type="email" id="eqEmail" name="email" autocomplete="email" required placeholder="you@example.com">
+              <small class="error" aria-live="polite"></small>
+            </div>
+            <div class="field">
+              <label for="eqCategory">Interested Furniture Category <span aria-hidden="true">*</span></label>
+              <select id="eqCategory" name="category" required>
+                <option value="">Select a category</option>
+                <option>Living Room</option>
+                <option>Bedroom</option>
+                <option>Dining Room</option>
+                <option>Office Furniture</option>
+                <option>Home Decor</option>
+                <option>Outdoor Furniture</option>
+                <option>Custom Furniture</option>
+              </select>
+              <small class="error" aria-live="polite"></small>
+            </div>
+            <div class="field">
+              <label for="eqProduct">Product Name</label>
+              <input type="text" id="eqProduct" name="product" placeholder="e.g. Nordic Comfort Sofa">
+            </div>
+            <div class="field">
+              <label for="eqBudget">Budget Range</label>
+              <select id="eqBudget" name="budget">
+                <option value="">Select budget (optional)</option>
+                <option>Under ₹10,000</option>
+                <option>₹10,000 – ₹25,000</option>
+                <option>₹25,000 – ₹50,000</option>
+                <option>₹50,000 – ₹1,00,000</option>
+                <option>Above ₹1,00,000</option>
+              </select>
+            </div>
+            <div class="field field-full">
+              <label for="eqMessage">Message</label>
+              <textarea id="eqMessage" name="message" rows="4" placeholder="Tell us about your space, preferred colours or sizes"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send Enquiry <i class="fa-solid fa-paper-plane" aria-hidden="true"></i></button>
+          <p class="form-note"><i class="fa-solid fa-lock" aria-hidden="true"></i> Demo form: your details are not stored or sent anywhere.</p>
+          <div class="form-success" id="enquirySuccess" role="status" hidden>
+            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+            <h3>Thank you! Your enquiry is noted.</h3>
+            <p>This is a demo, so nothing was sent. On a live site, our team would contact you shortly.</p>
+            <div class="btn-row">
+              <a href="#" class="btn btn-dark btn-sm" id="enquiryWa"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Continue on WhatsApp</a>
+              <button type="button" class="btn btn-outline btn-sm" id="enquiryReset">Send another</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container contact">
+        <div class="contact-info reveal">
+          <span class="eyebrow">Contact</span>
+          <h2>WOODORA LIVING</h2>
+          <p class="lead">We'd love to help you furnish your space. Reach out or drop by the showroom.</p>
+          <ul class="info-list">
+            <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i><span><strong>Showroom</strong>Showroom address placeholder<br>Sangli, Maharashtra, India</span></li>
+            <li><i class="fa-solid fa-phone" aria-hidden="true"></i><span><strong>Phone</strong><a href="tel:+919876543210">+91 98765 43210</a> <small>(placeholder)</small></span></li>
+            <li><i class="fa-regular fa-envelope" aria-hidden="true"></i><span><strong>Email</strong><a href="mailto:hello@woodoraliving.example">hello@woodoraliving.example</a> <small>(placeholder)</small></span></li>
+            <li><i class="fa-regular fa-clock" aria-hidden="true"></i><span><strong>Business Hours</strong>Business hours placeholder</span></li>
+          </ul>
+          <div class="btn-row">
+            <a href="#" class="btn btn-wa" data-wa="general"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Chat on WhatsApp</a>
+            <a href="#showroom" class="btn btn-outline">Visit Showroom</a>
+          </div>
+        </div>
+        <div class="map-box reveal" style="--d:.1s" id="mapBox">
+          <div class="map-placeholder">
+            <i class="fa-solid fa-map-location-dot" aria-hidden="true"></i>
+            <h3>Google Map Placeholder</h3>
+            <p>The exact showroom pin will be added here. Load a city map of Sangli for now.</p>
+            <button type="button" class="btn btn-dark btn-sm" id="loadMap">Load Map</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FINAL CTA ============ -->
+    <section class="final-cta" aria-label="Bring your space to life">
+      <img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1800&q=75" alt="Neutral living room with a cream sectional sofa and round coffee table" class="final-bg">
+      <div class="final-shade"></div>
+      <div class="container final-content reveal">
+        <h2>Bring Your Space to Life.</h2>
+        <p>Discover furniture that reflects your style and makes everyday living more beautiful.</p>
+        <div class="btn-row btn-row-center">
+          <a href="#collection" class="btn btn-light" data-filter-link="all">Explore Furniture</a>
+          <a href="#showroom" class="btn btn-outline-light">Visit Our Showroom</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo logo-light" aria-label="WOODORA LIVING home">
+          <img src="assets/images/logo.svg" alt="" width="40" height="40">
+          <span class="logo-text"><strong>WOODORA</strong><small>LIVING</small></span>
+        </a>
+        <p>Designed for Living. Crafted for Comfort. Stylish, comfortable and functional furniture for homes, offices and commercial spaces in Sangli, Maharashtra.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram (placeholder)" data-placeholder-link><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Facebook (placeholder)" data-placeholder-link><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Pinterest (placeholder)" data-placeholder-link><i class="fa-brands fa-pinterest-p" aria-hidden="true"></i></a>
+          <a href="#" aria-label="YouTube (placeholder)" data-placeholder-link><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+          <a href="#" aria-label="WhatsApp" data-wa="general"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#new-arrivals">New Arrivals</a></li>
+          <li><a href="#custom">Custom Furniture</a></li>
+          <li><a href="#showroom">Our Showroom</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Furniture</h3>
+        <ul>
+          <li><a href="#collection" data-filter-link="living">Living Room</a></li>
+          <li><a href="#collection" data-filter-link="bedroom">Bedroom</a></li>
+          <li><a href="#collection" data-filter-link="dining">Dining Room</a></li>
+          <li><a href="#collection" data-filter-link="office">Office Furniture</a></li>
+          <li><a href="#collection" data-filter-link="decor">Home Decor</a></li>
+          <li><a href="#collection" data-filter-link="outdoor">Outdoor</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Customer Support</h3>
+        <ul>
+          <li><a href="#faq">FAQs</a></li>
+          <li><a href="#enquiry">Product Enquiry</a></li>
+          <li><a href="#" data-open-modal="customModal">Request Custom Furniture</a></li>
+          <li><a href="#materials">Materials &amp; Finishes</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul class="footer-contact">
+          <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i>Sangli, Maharashtra, India</li>
+          <li><i class="fa-solid fa-phone" aria-hidden="true"></i><a href="tel:+919876543210">+91 98765 43210</a></li>
+          <li><i class="fa-regular fa-envelope" aria-hidden="true"></i><a href="mailto:hello@woodoraliving.example">hello@woodoraliving.example</a></li>
+          <li><i class="fa-regular fa-clock" aria-hidden="true"></i>Business hours placeholder</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 WOODORA LIVING. All Rights Reserved.</p>
+      <p class="footer-demo">Demo website: products, prices, testimonials, contact details and business information are sample content.</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp + back to top -->
+  <a href="#" class="wa-float" data-wa="general" aria-label="Chat with WOODORA LIVING on WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></button>
+
+  <!-- ============ PRODUCT MODAL ============ -->
+  <div class="modal" id="productModal" role="dialog" aria-modal="true" aria-labelledby="pmName" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-dialog modal-product" tabindex="-1">
+      <button type="button" class="modal-close" data-close-modal aria-label="Close product details"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+      <div class="pm-media"><img id="pmImage" src="" alt=""></div>
+      <div class="pm-body">
+        <span class="eyebrow" id="pmCategory"></span>
+        <h2 id="pmName"></h2>
+        <p class="pm-price" id="pmPrice"></p>
+        <p id="pmDesc"></p>
+        <dl class="pm-specs">
+          <div><dt>Category</dt><dd id="pmCat2"></dd></div>
+          <div><dt>Material</dt><dd id="pmMaterial"></dd></div>
+          <div><dt>Dimensions</dt><dd id="pmDims"></dd></div>
+          <div id="pmExtraWrap"><dt id="pmExtraLabel"></dt><dd id="pmExtra"></dd></div>
+        </dl>
+        <div class="pm-colours">
+          <h3>Available Colours</h3>
+          <div id="pmColours" class="swatches"></div>
+        </div>
+        <div class="pm-features">
+          <h3>Features</h3>
+          <ul id="pmFeatures"></ul>
+        </div>
+        <div class="btn-row">
+          <a href="#" target="_blank" rel="noopener" class="btn btn-wa" id="pmWhatsapp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Enquire on WhatsApp</a>
+          <button type="button" class="btn btn-outline" id="pmEnquire">Send Enquiry Form</button>
+        </div>
+        <p class="fine-print">Sample product for demonstration. Final dimensions, colours and price to be confirmed at the showroom.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ CUSTOM FURNITURE MODAL ============ -->
+  <div class="modal" id="customModal" role="dialog" aria-modal="true" aria-labelledby="cmTitle" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-dialog modal-form" tabindex="-1">
+      <button type="button" class="modal-close" data-close-modal aria-label="Close custom furniture form"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+      <span class="eyebrow">Custom Furniture</span>
+      <h2 id="cmTitle">Request Custom Furniture</h2>
+      <p>Share a few details and we'll help plan a piece made around your space.</p>
+      <form id="customForm" novalidate>
+        <div class="form-grid">
+          <div class="field">
+            <label for="cfName">Name <span aria-hidden="true">*</span></label>
+            <input type="text" id="cfName" name="name" autocomplete="name" required placeholder="Your name">
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <label for="cfPhone">Mobile Number <span aria-hidden="true">*</span></label>
+            <input type="tel" id="cfPhone" name="phone" autocomplete="tel" inputmode="numeric" required placeholder="10-digit mobile number">
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <label for="cfType">Furniture Type <span aria-hidden="true">*</span></label>
+            <select id="cfType" name="type" required>
+              <option value="">Select type</option>
+              <option>Sofa</option>
+              <option>Bed</option>
+              <option>Wardrobe</option>
+              <option>TV Unit</option>
+              <option>Dining Set</option>
+              <option>Office Desk / Storage</option>
+              <option>Modular Storage</option>
+              <option>Other</option>
+            </select>
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <label for="cfDims">Preferred Dimensions</label>
+            <input type="text" id="cfDims" name="dimensions" placeholder="e.g. 7 ft x 2 ft x 8 ft">
+          </div>
+          <div class="field field-full">
+            <label for="cfMaterial">Material Preference</label>
+            <select id="cfMaterial" name="material">
+              <option value="">No preference / need advice</option>
+              <option>Natural Wood</option>
+              <option>Walnut Finish</option>
+              <option>Oak Finish</option>
+              <option>Engineered Wood</option>
+              <option>Premium Fabric</option>
+              <option>Leatherette</option>
+              <option>Metal Finish</option>
+            </select>
+          </div>
+          <div class="field field-full">
+            <label for="cfMessage">Message</label>
+            <textarea id="cfMessage" name="message" rows="3" placeholder="Tell us about the room, colours or any reference ideas"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit Request</button>
+        <p class="form-note"><i class="fa-solid fa-lock" aria-hidden="true"></i> Demo form: nothing is stored or sent.</p>
+      </form>
+      <div class="form-success" id="customSuccess" role="status" hidden>
+        <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+        <h3>Request received!</h3>
+        <p>Thanks for sharing your idea. This is a demo, so nothing was sent. On a live site, our design team would call you to discuss it.</p>
+        <button type="button" class="btn btn-dark btn-sm" data-close-modal>Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
